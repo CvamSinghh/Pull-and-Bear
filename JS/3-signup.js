@@ -58,7 +58,7 @@ function signup(e) {
 
         //3- push new user to the array.
 
-        if (count === 0 && user.email.length > 0 && user.password.length > 7) { x.push(user) }  // added a new user
+        if (count === 0 && user.email.length > 0 && user.password.length > 7) { x.push(user); alert`registered successfully.` }  // added a new user
 
         localStorage.setItem("users", JSON.stringify(x));
         console.log("x", x)

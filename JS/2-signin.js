@@ -24,7 +24,7 @@ function signin(e) {
             count++;
         }
 
-        else if (email === user.email && password !== user.password) {
+        else if (email == user.email && password !== user.password) {
             window.alert("Email or Password is incorrect");
         };
 
