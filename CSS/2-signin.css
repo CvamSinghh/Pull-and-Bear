@@ -1,0 +1,74 @@
+body {
+    background-image: url(" https://static.pullandbear.net/2/static2/itxwebstandard/images/home/2021-10/29/Denim_man.jpg?v=20211108022501&imwidth=1440");
+    background-size: cover;
+
+}
+
+* {
+    font-family: Graphik Cond Web, Graphik, sans-serif;
+}
+
+h2 {
+    text-align: center;
+    padding-top: 15px;
+    /* color:beige; */
+}
+
+#signinbox {
+    width: 30%;
+    height: 70%;
+    background-color: #F5F5F5;
+    /* margin:0% 2% 10% 71%;  */
+
+
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+
+    border: 1 px solid salmon;
+
+}
+
+input {
+    margin: 4%;
+    height: 30px;
+    border: none
+}
+
+button {
+    height: 40px;
+    width: 90%;
+    margin: 4%;
+    border: none;
+    background-color: #263238;
+    color: white;
+    font-size: 16px;
+
+}
+
+#sign {
+    background-color: black;
+    color: white;
+}
+
+#CYA {
+    margin-bottom: 6%;
+    height: 40px;
+
+}
+
+.page {
+    display: flex;
+    flex-direction: row-reverse;
+
+}
+
+.test {
+
+    margin-right: 8%;
+    margin-top: 2%;
+
+
+}
